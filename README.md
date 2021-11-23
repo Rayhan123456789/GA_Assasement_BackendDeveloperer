@@ -1,15 +1,26 @@
-# SejutaCitaIndonesia_technicalTes
-Technical Tes SejutaCita indonesia Backend Developer, Softwear Engeering
+Warehouse systems
+Create backend service to manage warehouse stocks
+Requirements:
+Use any database you're comfortable
+Use any library or framework you're comfortable
+Create API that can be used for:
+store new item
+show all item
+show detail item
+update specific item information
+delete specific
+manage stock in and stock out
+show history stock in and stock out
+Each item should have this information:
+Name, stock, price, category
+Clean documentation how to install and run your app
+Integration testing / unit testing
+be creative as possible
+Plus point if you can:
+Deploy to make it live and share the link
+Implement filter and sorting for API:
+show all item
+show history stock in and stock out
 
-1. Dengan NodeJS (atau Golang), agar saudara membuat Rest API CRUD User dan User Login. 
-2. Jika menggunakan NodeJS maka disarankan menggunakan ExpressJS. Database bebas, tetapi disarankan MongoDB.
-3. User Login digunakan user (username, password) untuk mengakses API CRUD (token, tetapi mendapatkan nilai tambahan jika menggunakan refresh token).
-5. Bikin 2 users dengan role: 1 Admin, 1 User.
-6. Admin bisa melakukan/mengakses semua API CRUD, sedangkan User hanya bisa mengakses data user bersangkutan saja (Read)
-7. Implementasi arstektur Microservices, menggunakan Kubernetes dengan Docker container deploy di VPS (1 node dengan beberapa pod di dalamnya). Bagi yang belum memiliki VPS, maka cukup (a) menyiapkan semua YML agar aplikasi bisa dijalankan secara containerize dan siap di deploy di Kubernetes dan (b) di-deploy di lokal dan sertakan screenshoot. 
-8. Upload source code ke Github beserta script YML Kubernetes.
-9. Bikin dokumentasi API nya (Postman atau Swagger) yang bisa diakses ke server Rest API nya.
-10. Bikin diagram arstektur nya yang menjelaskan flow API CRUD dan Login.
-11. Lampirkan credential Admin di Readme.
-
-Mohon submit kesini (biasanya orang kirim link Github) paling lambat 21 Nov 2021.
+###
+nodemon index.js  [for run]
